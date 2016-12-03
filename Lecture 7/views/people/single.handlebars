@@ -1,0 +1,12 @@
+<div id="person">
+	<h1>Name: {{person.people.name}}</h1>
+	
+	{{#if person.events.length}}
+		<h2>Events</h2>
+		<ul>
+			{{#each person.events}}
+				<li class="event_li"><a href="/events/{{this.id}}">{{this.title}}</a></li>
+			{{/each}}
+		</ul>
+	{{/if}}
+</div>

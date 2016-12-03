@@ -1,0 +1,20 @@
+{
+  "name": "lecture6",
+  "version": "0.0.1",
+  "description": "lecture6",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiao Wang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "guid": "0.0.12",
+    "mongodb": "^2.2.10",
+    "request-promise": "^4.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+<div class="location">
+	<h1>Location: {{location.locationInfo.name}}({{location.locationInfo.location}})</h1>
+	
+	<h2>Events</h2>
+	<ul>
+		{{#if location.events.length}}
+			{{#each location.events}}
+				<li class="location_li"><a href="/events/{{id}}">{{title}}</a></li>
+			{{/each}}
+		{{/if}}
+	</ul>
+</div>

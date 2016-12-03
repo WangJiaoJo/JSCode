@@ -1,0 +1,15 @@
+{
+  "name": "calculator_module_example",
+  "version": "0.0.1",
+  "description": "A simple calculator module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jiao Wang",
+  "license": " MIT",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}

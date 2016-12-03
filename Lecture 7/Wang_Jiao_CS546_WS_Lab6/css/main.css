@@ -1,0 +1,115 @@
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.post {
+    width: 75%;
+    border-bottom: 1px dashed #333;
+}
+
+a, a:visited{
+	cursor: pointer;
+	text-decoration: none;
+	color: #8B0A50;
+	display: block;
+	padding: 15px 5px;
+}
+
+ul{
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.person_li{
+	font-size: 20px;
+	line-height: 22px;
+}
+
+#person{
+	border: 1px solid #FF4040;
+	display: block;
+	padding: 0 15px;
+}
+
+#person h1{
+	color: #3A5FCD;
+}
+
+.event_li{
+	border-bottom: 1px dashed #A2CD5A;
+}
+
+.event h1{
+	color: #CD6600;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.event h2{
+	color: #9BCD9B;
+	font-weight: bold;
+}
+
+.event li.person_li{
+	border: 1px dashed #0000CD;
+	border-radius: 8px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.event li.person_li:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+.location_li{
+	border: 1px dotted #FFD700;
+	margin: 5px 0;
+}

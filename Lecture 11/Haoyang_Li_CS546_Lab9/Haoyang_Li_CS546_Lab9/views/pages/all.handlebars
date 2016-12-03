@@ -1,0 +1,20 @@
+<table class="col-sm-12 col-md-8" id="all-notes"> 
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Due Date</th>
+            <th>Summary</th>
+            <th>Body</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each notes}}
+        <tr>
+            <td ><a class="track-single" href="/single/{{id}}">{{title}}</a></td>
+            <td>{{due}}</td>
+            <td>{{summary}}</td>
+            <td>{{body}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

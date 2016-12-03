@@ -1,0 +1,15 @@
+<div class="event">
+	<h1>Title: {{event.event.title}}</h1>
+	
+	<h2>Location: <a href="/locations/{{event.location.id}}">{{event.location.name}}({{event.location.location}})</a></h2>
+	<h2>Date: {{event.event.startTime}}</h2>
+	
+	{{#if event.persons.length}}
+		<h2>Attendees</h2>
+		<ul>
+			{{#each event.persons}}
+				<li class="person_li"><a href="/people/{{this.id}}">{{this.name}}</a></li>
+			{{/each}}
+		</ul>
+	{{/if}}
+</div>

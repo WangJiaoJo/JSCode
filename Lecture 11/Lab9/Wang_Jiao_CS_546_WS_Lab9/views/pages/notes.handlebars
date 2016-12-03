@@ -1,0 +1,20 @@
+<table class="col-sm-12 col-md-6" id="all-notes">      
+    <thead>
+        <tr>
+            <th>Note Title</th>
+            <th>Note Summary</th>
+            <th>Note Date</th>
+            <th>Note Body</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each notes}}   
+        <tr>   
+            <td><a class="single" href="/pages/{{id}}">{{title}}</a></td>
+            <td>{{summary}}</td>
+            <td>{{date}}</td>
+            <td>{{body}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
